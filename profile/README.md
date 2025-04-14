@@ -11,7 +11,7 @@ biological knowledge into a common schema, using the
 
 Unfortunately, the associated manuscript spent two years in review, and was ultimately
 tabled by the original authors. However, in the following pandemic years the construction of
-biomedical knowledge graphs (albeit, with a less principled approach) became quite popular.
+biomedical knowledge graphs (albeit, with less principled approaches) became quite popular.
 
-The Bio2BEL repositories were constructed in a modular way such that each repository hosts
-a seperate source that can be converted to BEL.
+The `bio2bel` Python package contains shared utilities for converting generic resources
+to BEL, and a different repository was created for each resource that can be converted to BEL.
